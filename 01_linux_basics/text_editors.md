@@ -1,4 +1,10 @@
-### Creating and Editing Text Files in Linux
+# Short Intro to text editors in linux
+
+
+
+## Creating and Editing Text Files in Linux
+
+A complete and detailed guideline for using vim, nano and emacs can be found in this same folder. Here just a short use case for nano and vim is presented only
 
 ## Learning Objectives
 
@@ -6,16 +12,16 @@
 - Describe GUI-based and command-line text editors
 - Use command-line editors to create and edit files
 
-## Types of Text Editors
+### Types of Text Editors
 
 Linux text editors can be divided into two main categories:
 
 1. Command-line text editors
 2. GUI-based text editors
 
-## Common Command-Line Editors
+### Common Command-Line Editors
 
-## nano
+### nano
 
 GNU nano is a simple and beginner-friendly command-line text editor.
 
@@ -24,7 +30,7 @@ Open or create a file:
 ```bash
 nano filename.txt
 
-# useful nano shortcuts
+### useful nano shortcuts
 
 ctrl + G #help 
 ctrl + O #save/write file
@@ -44,19 +50,17 @@ It is a traditional Unix command line editor.
 vim is an improved version of vi. It is powerful but requires 
 practice because it uses modes.
 
-# Open or create a file:
+### Open or create a file:
 
 vim filename.txt
 
-# important vim modes:
+### important vim modes:
 
 - insert mode: used to write text
 - command mode: used to save, quit, search, and perform operations
 
-# Basic vim workflow:
+### Basic vim workflow:
 vim example.txt
-
-# Press
 
 i #for insert mode 
 
@@ -72,11 +76,11 @@ ESC #to return to command mode
 
 ```bash
 
-## GUI text editors
+### GUI text editors
 
 gedit is a GUI-based text editor commonly used in GNOME desktop environments.
 
-# Features:
+### Features:
 
 - Simple graphical interface
 - Search and replace
@@ -86,7 +90,7 @@ gedit is a GUI-based text editor commonly used in GNOME desktop environments.
 - Integrated file browser
 - Why Text Editors Matter
 
-# Text editors are important for:
+### Text editors are important for:
 
 - Writing shell scripts
 - Editing configuration files
