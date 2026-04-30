@@ -64,3 +64,21 @@ Code blocks can be written by writing backticks
 ``` bash ) ```
 
 
+## Writing comments in bash scripts
+
+In shell scripts, comments start with just one hash sign #
+
+Example:
+
+- #!/bin/bash
+
+- # Print current working directory
+- pwd
+
+- # List files
+- ls
+
+(bullet points has been added to not make them headings)
+
+
+
