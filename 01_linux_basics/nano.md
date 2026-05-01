@@ -1,11 +1,10 @@
 # nano workflow 
 
-## overview:
-
-open file - write or edit text and then save the file.
+nano is a simple terminal-based text editor which we use to create or edit the files directly inside the terminal 
+directly from the command line.
 
 ## commands:
-as an example:
+example:
 
 ```bash
 
@@ -61,9 +60,7 @@ It can be write by using the hyphens also simply
 
 Code blocks can be written by writing backticks
 
-``` bash ) ```
-
-
+- ``` bash ```
 ## Writing comments in bash scripts
 
 In shell scripts, comments start with just one hash sign #
@@ -80,7 +77,7 @@ Example:
 
 (bullet points has been added to not make them headings)
 
-# Writing a shell scriptusing nano
+###  Writing a shell scriptusing nano
 
 create a script like this:
 
@@ -88,12 +85,12 @@ create a script like this:
 nano hello.sh
 ```
 
-## Write
+### Write
 
 ```bash
-#!/bin/bash
+!/bin/bash
 
-# This script prints a simple message
+This script prints a simple message
 
 echo "Hello from Linux"
 ```
@@ -118,7 +115,7 @@ Run it:
 ./hello.sh
 ```
 
-## Opening a file at a specific line
+### Opening a file at a specific line
 
 ```bash
 nano +10 README.md
@@ -126,14 +123,14 @@ nano +10 README.md
 
 This opens README.md at line 10.
 
-## Showing line numbers in nano
+### Showing line numbers in nano
 
 open nano with the line numbers:
 
 ```bash
 nano -l README.md
 ```
-## Some good habits:
+### Some good habits:
 
 - Save frequently using Ctrl + O
 - Exit safely using Ctrl + X
@@ -143,7 +140,7 @@ nano -l README.md
 - Use clear file names
 - Write notes in small, readable sections
 
-## Simple nano practice
+### Simple nano practice
 
 create a pactice file:
 
