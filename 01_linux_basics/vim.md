@@ -161,8 +161,54 @@ For a new paragrpg, leave one empty line
 
 ## Writing bullet points in README files
 
+use "-" forbullet points.
+
+- this is the first bullet point
+- this is the second bullet point
+- this is the third bullet point
+
+Nested beluet points:
+
+- This is the main bullet point
+  - This is the first sub-main bullet point
+- This is the second second main point
+  - This is the second sub-mmain bullet point
+
+for nested bullets, use two spaces before the inner bullet.
+
+## Writing numbered steps
+
+Use numbered lists when order matters:
+
+1. This is the first numbered bullet point
+2. This is the second numbered bullet point
+3. This is the third numbered bullet point 
+
+This is useful for README files, workflow notes, and tutorial documents.
 
 
+## Writing short commands inside text 
+
+use backticks for short inline commands.
+
+for example, activating a conda environment `conda activate <env_name>` 
+(just a single back tick) 
+
+## Writing full command blocks
+
+use triple backticks for command blocks.
+Command block = huge commands like we use in the commands spanning on different lines
+
+For example:
+
+```bash
+qiime tools import\
+--type 'SampleData[SequencesWithQuality]'\
+--input-path meatdata_templates/manifest-templates.tsv\
+--ouput-path results/16S_pacbio_demux.qza\
+--input-format SingleEndFastqManifestPhred33V2
+```
+The word bash tells github to highlight the block as shell code.
 
 
 
