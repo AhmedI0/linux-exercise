@@ -212,7 +212,19 @@ The word bash tells github to highlight the block as shell code.
 
 ## Best format: heading followed by command
 
-This is the cleanest format for README and workflow notes.
+First write the command or whole command set itself
+
+for example:
+
+```bash
+qiime demux summarize \
+-i-data results/16S_pacbio_demux.qza \
+--o-visualisation results/16S_pacbio_demux.qzv
+```
+
+Best practice is to explain each command:
+
+
 
 
 
