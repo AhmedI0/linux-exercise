@@ -210,6 +210,10 @@ qiime tools import\
 ```
 The word bash tells github to highlight the block as shell code.
 
+## Best format: heading followed by command
+
+This is the cleanest format for README and workflow notes.
+
 
 
  
