@@ -224,6 +224,10 @@ qiime demux summarize \
 
 Best practice is to explain each command:
 
+for example:
+
+i is the argument for input file
+o is for ouput visualisation file used for initial observation of the seqeuncing run
 
 
 
