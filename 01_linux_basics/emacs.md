@@ -96,3 +96,21 @@ c-g
 If emacs seems stuck or waiting for input, Press `c-g` to cancel.
 
 
+## Moving inside emacs
+
+You can use arrow keys normally.
+
+usful movement commands:
+
+| Command | Movement               |
+| ------- | ---------------------- |
+| `C-a`   | Beginning of line      |
+| `C-e`   | End of line            |
+| `C-f`   | Forward one character  |
+| `C-b`   | Backward one character |
+| `C-n`   | Next line              |
+| `C-p`   | Previous line          |
+| `M-f`   | Forward one word       |
+| `M-b`   | Backward one word      |
+
+
