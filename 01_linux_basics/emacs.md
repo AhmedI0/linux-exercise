@@ -40,8 +40,34 @@ here:
 C means ctrl 
 M means meta or Alt
 
+## Basic wokflow
 
+open a file:
 
+```bash
+emacs -nw README.md
+```
+Save file:
+
+```bash
+C-x C-s
+```
+Exit emacs:
+
+```bash
+C-x C-c
+```
+
+If emacs asks whether to save changes, answer:
+```bash
+y
+```
+for yes, or:
+
+```bash
+n
+```
+for no.
 
 
 
