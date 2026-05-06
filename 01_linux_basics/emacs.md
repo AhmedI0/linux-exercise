@@ -69,5 +69,30 @@ n
 ```
 for no.
 
+## Essential emacs commands:
+
+| Command   | Meaning                        |
+| --------- | ------------------------------ |
+| `C-x C-s` | Save file                      |
+| `C-x C-c` | Exit Emacs                     |
+| `C-g`     | Cancel current command         |
+| `C-x u`   | Undo                           |
+| `C-s`     | Search forward                 |
+| `C-r`     | Search backward                |
+| `C-k`     | Cut from cursor to end of line |
+| `C-y`     | Paste/yank text                |
+| `C-a`     | Go to beginning of line        |
+| `C-e`     | Go to end of line              |
+| `C-v`     | Page down                      |
+| `M-v`     | Page up                        |
+| `M-x`     | Run named command              |
+
+Most important survival command:
+
+```bash
+c-g
+```
+
+If emacs seems stuck or waiting for input, Press `c-g` to cancel.
 
 
