@@ -26,5 +26,22 @@ emacs -nw notes.md
 emacs -nw .gitignore
 ```
 
+## Shortcuts and also important emacs ideas:
+
+| Notation    | Meaning                            | Function                                          |
+|-------------|------------------------------------|---------------------------------------------------|
+| `C-x`       | Hold Ctrl and press x              | Prefix key for many Emacs commands                |
+| `C-c`       | Hold Ctrl and press c              | User/custom command prefix and command execution  |
+| `M-x`       | Press Alt+x, or Esc then x         | Run extended Emacs commands by name               |
+| `C-x C-s`   | Ctrl+x, then Ctrl+s                | Save current file/buffer                          | 
+
+here:
+
+C means ctrl 
+M means meta or Alt
+
+
+
+
 
 
