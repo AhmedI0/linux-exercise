@@ -118,3 +118,6 @@ usful movement commands:
 
 
 the file can be opened by justa dding the hyphen in the start and mentioning the name of the file
+
+
+it can also be written directly 
