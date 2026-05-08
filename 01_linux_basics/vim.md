@@ -222,12 +222,14 @@ qiime demux summarize \
 --o-visualisation results/16S_pacbio_demux.qzv
 ```
 
-Best practice is to explain each command:
+## Comments in markdown, bash, python, R and gitignore
 
-for example:
+The meaning of comments depends on file type.
 
-i is the argument for input file
-o is for ouput visualisation file used for initial observation of the seqeuncing run
+In README files, write comments as notes:
+
+Note: PacBio CCS reads are treated as single end reads
+
 
 
 
