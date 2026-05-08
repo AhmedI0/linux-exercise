@@ -228,8 +228,8 @@ The meaning of comments depends on file type.
 
 In README files, write comments as notes:
 
-Note: PacBio CCS reads are treated as single end reads
-
+Note: <write every thing related to the readme files directly as note>
+Important: <write importnat points here related to the commands>
 
 
 
