@@ -116,8 +116,24 @@ usful movement commands:
 
 ## Opening a file at a specific line
 
+open a file and go to line 25:
 
-the file can be opened by justa dding the hyphen in the start and mentioning the name of the file
+```bash
+emacs -nw +25 README.md
+```
+
+Inside emacs, go to line using:
+
+```bash
+C-g g
+M-g g #here M is for meta and C for ctrl
+```
+Then, type the line number and press Enter
+
+for example:
+
+`C-g` then `g` then `25` then `ENTER` 
 
 
-it can also be written directly 
+
+
