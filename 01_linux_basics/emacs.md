@@ -125,14 +125,13 @@ emacs -nw +25 README.md
 Inside emacs, go to line using:
 
 ```bash
-C-g g
-M-g g #here M is for meta and C for ctrl
+Alt-g g 
 ```
 Then, type the line number and press Enter
 
 for example:
 
-`C-g` then `g` then `25` then `ENTER` 
+`Alt-g` then `g` then `25` then `ENTER` 
 
 
 
