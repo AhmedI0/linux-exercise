@@ -133,6 +133,7 @@ for example:
 
 `Alt-g` then `g` then `25` then `ENTER` 
 
+Note; since Alt is used in the modern keyboard configuration. But, originally the command is `M-g`
 
 
 
