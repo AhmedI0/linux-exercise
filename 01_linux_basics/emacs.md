@@ -153,5 +153,13 @@ M-x linum-mode
 
 Line numbers are very handy when debugging scripts or reading error messages.
 
+## Writing markdown headings in emacs:
+
+For README.md file, use markdown. he structure will be like this (shown in bullet points).
+
+- #    Main heading
+- ##   Sub-heading
+- ###  Smaller Sub-heading
+- #### Smallest heading
 
 
