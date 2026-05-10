@@ -135,5 +135,23 @@ for example:
 
 Note; since Alt is used in the modern keyboard configuration. But, originally the command is `M-g`
 
+## Turning on line numbers
+
+Inside emacs, run:
+
+```bash
+M-x dsiplay-line-number-mode
+```
+
+This toggles line numbers on or off for the current buffer.
+
+For older emacs versions, use:
+
+```bash
+M-x linum-mode
+```
+
+Line numbers are very handy when debugging scripts or reading error messages.
+
 
 
