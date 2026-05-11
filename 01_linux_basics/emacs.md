@@ -163,3 +163,20 @@ For README.md file, use markdown. he structure will be like this (shown in bulle
 - #### Smallest heading
 
 
+## Writing Paragraphs
+
+Normal markdown paragraphs do not need sspecial symbols.
+
+Example:
+
+This repo contains This prgrams and scriptss etc.
+
+#### Nested Bullets:
+
+Put a bullet point write the text then on the next line give two spaces or press tab and then add next bullet point.
+
+For example:
+
+- This is the main bullet point
+  - This is the nested bullet point after giving some space in the start of the line.
+
