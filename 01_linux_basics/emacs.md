@@ -250,7 +250,12 @@ qiime demux summarize \
 This command generates a `.qzv`visualisation file that can be opened with QIIME2 view. 
 It helps inspect the read counts, qulaity distribution and read length profiles. 
 
+## Comments in README files and scripts
 
+In readme files, write comments as notes:
+
+For example:
+**Notes:** Pacbio CCS reads are treated as single end reads.
 
 
  
