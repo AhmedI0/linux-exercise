@@ -180,5 +180,78 @@ For example:
 - This is the main bullet point
   - This is the nested bullet point after giving some space in the start of the line.
 
+## Write numbered lists
 
+use numbered lists of ordered steps.
+
+(Write the number of the bullet and add a space)
+
+1. This is the first bullet point 
+2. This is the second bullet point
+
+## Writing short commands inside text
+
+use backticks around short commands.
+
+For example:
+
+Activate an environment `conda activate <env name>` 
+
+Use back slash for file and folder names
+
+For example:
+
+The main scripts are stored in the `commands/` directory.
+The file should be saved as `commands/emacs_commands.sh` 
+
+## Writing full commands block
+
+Use triple backticks with the 'bash' 
+
+for example:
+
+```bash
+qiime import tools \
+--typpe 'SampleData[SequencesWithQuality]' \
+--input-path metadata_templates/manifest-template.tsv \
+--output-path results/16S_pacbio_demux.qza \
+--input-format SingleEndFastqManifestPhred33V2
+```
+This is a whole command block which will be run in a continuous way. 
+We have this kind of command blocks in trimmomatic and also for writing long shell scripts.
+
+The word 'bash' tells the github to highlight the block as shell code.
+
+## Best format 
+
+Best way to write the commands or add the information is by adding a heading. Then, write the commands
+and information about this.
+
+Use thiss structure in README files and workflow notes.
+
+For example:
+
+#### Step1: Activate the environment
+
+```bash
+conda activate <env name>
+```
+
+## Explaining commands after code blocks
+
+After command block, write purpose, input and output.
+
+```bash
+qiime demux summarize \
+--i-data results/16S_pacbio_demux.qza \
+--o-visualisation results/16S_pacbio_demux.qzv
+```
+
+This command generates a `.qzv`visualisation file that can be opened with QIIME2 view. 
+It helps inspect the read counts, qulaity distribution and read length profiles. 
+
+
+
+
+ 
 
