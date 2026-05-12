@@ -255,8 +255,24 @@ It helps inspect the read counts, qulaity distribution and read length profiles.
 In readme files, write comments as notes:
 
 For example:
-**Notes:** Pacbio CCS reads are treated as single end reads.
+(add Asterisks 2 at both directions of the text to make it bold text)
 
+- **Notes:** Pacbio CCS reads are treated as single end reads.
+
+For other commands and font impressions use this table and shortcuts
+
+|   Formatting  |        Markdown syntax        |       Example output        |
+|---------------|-------------------------------|-----------------------------|
+| Bold          | ` * * text * * `                    | **text**                    |
+| Italic        | `*text*`                      | *text*                      |
+| Bold + italic | `***text***`                  | ***text***                  |
+| Underline     | `<u>text</u>`                 | <u>text</u>                 |
+| Strikethrough | `~~text~~`                    | ~~text~~                    |
+| Inline code   | `` `text` ``                  | `text`                      |
+| Link          | `[text](https://example.com)` | [text](https://example.com) |
+| Highlight     | `<mark>text</mark>`           | <mark>text</mark>           |
+| Superscript   | `text<sup>2</sup>`            | text<sup>2</sup>            |
+| Subscript     | `H<sub>2</sub>O`              | H<sub>2</sub>O              |
 
  
 
