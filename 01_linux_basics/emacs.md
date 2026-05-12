@@ -263,7 +263,7 @@ For other commands and font impressions use this table and shortcuts
 
 |   Formatting  |        Markdown syntax        |       Example output        |
 |---------------|-------------------------------|-----------------------------|
-| Bold          | ` * * text * * `                    | **text**                    |
+| Bold          | `**text**`                    | **text**                    |
 | Italic        | `*text*`                      | *text*                      |
 | Bold + italic | `***text***`                  | ***text***                  |
 | Underline     | `<u>text</u>`                 | <u>text</u>                 |
@@ -274,5 +274,25 @@ For other commands and font impressions use this table and shortcuts
 | Superscript   | `text<sup>2</sup>`            | text<sup>2</sup>            |
 | Subscript     | `H<sub>2</sub>O`              | H<sub>2</sub>O              |
 
- 
+## Difference between markdown headings and bash comments
+
+In `README.md`:
+
+ hash symbol:
+
+# Hash is used to make a heading
+
+in markdown headings
+
+In `script.sh`:
+
+ hash symbol:
+
+for adding comments:
+
+so if the hash is used in bash, it will be a comment.
+
+so `#` has different meanings in bash and markdown, depending on the  file type.
+
+
 
