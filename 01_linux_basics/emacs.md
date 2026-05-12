@@ -294,5 +294,63 @@ so if the hash is used in bash, it will be a comment.
 
 so `#` has different meanings in bash and markdown, depending on the  file type.
 
+## Creating and editting bash scripts with emacs
+
+Open a shell script:
+
+```bash
+emacs -nw commands/16S_pacbio.sh
+```
+
+Example of the script:
+
+```bash
+!/bin/bash
+
+# 16S pacbio CCS qiime2 workflow
+# Author: name
+
+set -e
+
+# Activate QIIME2 enviornment
+
+conda activate qiime2-2024.10
+
+# Import Pacbio CCS reads
+
+qiime tools import \
+  --type 'SampleData[SequencesWithQuality]' \
+  --input-path metadata_templates/manifest-template.tsv \
+  --output-path results/16S_pacbio_demux.qza \
+  --input-format SingleEndFastqManifestPhred33V2
+
+# Summarize demultiplexed reads
+
+qiime demux summarize \
+  --i-data results/16S_pacbio_demux.qza \
+  --o-visaulization results/16S_pacbio_demux.qzv
+
+```
+Save with:
+
+`C-x` `C-s`
+
+Exit with:
+
+`C-x` `C-c` 
+
+Make the script executable:
+
+`chmod +x commands/16S_pacbio.sh`
+
+Run it:
+
+`bash commands/16S_pacbio.sh`
+
+or:
+
+`./commands/16S_pacbio.sh` 
+
+
 
 
