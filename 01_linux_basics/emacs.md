@@ -352,5 +352,54 @@ or:
 `./commands/16S_pacbio.sh` 
 
 
+## Emacs major modes
+
+Emacs use major modes to support different cell types.
+
+| File type / Extension | Common major mode |
+|-----------------------|-------------------|
+| `.md`                 | `markdown-mode` |
+| `.txt`                | `text-mode` |
+| `.org`                | `org-mode` |
+| `.py`                 | `python-mode` |
+| `.r`                  | `ess-r-mode` |
+| `.Rmd`                | `poly-markdown+r-mode` |
+| `.sh`                 | `sh-mode` |
+| `.bash`               | `sh-mode` |
+| `.zsh`                | `sh-mode` |
+| `.c`                  | `c-mode` |
+| `.cpp`                | `c++-mode` |
+| `.h`                  | `c-mode` |
+| `.java`               | `java-mode` |
+| `.js`                 | `js-mode` |
+| `.ts`                 | `typescript-mode` |
+| `.html`               | `html-mode` |
+| `.css`                | `css-mode` |
+| `.xml`                | `nxml-mode` |
+| `.json`               | `json-mode` |
+| `.yaml` / `.yml`      | `yaml-mode` |
+| `.toml`               | `toml-mode` |
+| `.ini`                | `conf-mode` |
+| `.conf`               | `conf-mode` |
+| `.tex`                | `latex-mode` |
+| `.bib`                | `bibtex-mode` |
+| `.csv`                | `csv-mode` |
+| `.tsv`                | `tsv-mode` |
+| `.sql`                | `sql-mode` |
+| `.php`                | `php-mode` |
+| `.go`                 | `go-mode` |
+| `.rs`                 | `rust-mode` |
+| `.lua`                | `lua-mode` |
+| `.pl`                 | `perl-mode` |
+| `.rb`                 | `ruby-mode` |
+| `.swift`              | `swift-mode` |
+| `.kt`                 | `kotlin-mode` |
+| `.dockerfile`         | `dockerfile-mode` |
+| `Makefile`            | `makefile-mode` |
+| `.el`                 | `emacs-lisp-mode` |
+
+You can manually swich modes with `M-x` 
+Examples:
+- if markdown is not installed, emacs can still edit markdown as plain text.
 
 
