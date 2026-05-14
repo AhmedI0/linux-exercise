@@ -447,5 +447,27 @@ Paste after cutting:
 C-y
 ```
 
+## Searching in Emacs
+
+Search forward:
+
+```bash
+C-s
+```
+
+Type the search term. Press `C-s` again to jump to the next match.
+
+Search backward:
+
+```bash
+C-r
+```
+
+Cancel search:
+
+```bassh
+c-g
+```
+
 
 
