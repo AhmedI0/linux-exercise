@@ -402,4 +402,50 @@ You can manually swich modes with `M-x`
 Examples:
 - if markdown is not installed, emacs can still edit markdown as plain text.
 
-#
+## Auto indentation in EMacs
+
+Emacscan indent code automatically:
+
+Indent current line: `tab`
+Indent selected region: `C-M-\` 
+
+For shell scripts, python and LaTeX, this can help maintain clean formatting.
+
+## Selecting, copying, cutting adn pasting
+
+Set the mark at the current cursor position:
+
+```bash
+C-Space
+```
+
+Move the cursor to selected region:
+
+```bash
+C-w
+```
+Copy selected region:
+
+```bash
+M-w
+```
+Paste/yank:
+
+```bash
+C-y
+```
+
+Cut from cursor to end of line:
+
+```bash
+C-k
+```
+
+Paste after cutting:
+
+```bash
+C-y
+```
+
+
+
