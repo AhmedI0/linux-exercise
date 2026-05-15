@@ -469,5 +469,44 @@ Cancel search:
 c-g
 ```
 
+## Search and replace in emacs:
+
+Run query replace:
+
+```bash
+M-%
+```
+
+The type the old text, press ENTER, type the new text, press ENTER
+
+During replacement:
+
+| Key / Command | Meaning |
+|---------------|---------|
+| `C-s` | Search forward |
+| `C-r` | Search backward |
+| `M-%` | Start query replace |
+| `y` | Replace this match |
+| `n` | Skip this match |
+| `!` | Replace all remaining matches |
+| `.` | Replace this match and stop |
+| `q` | Quit query replace |
+| `C-g` | Cancel search or replace |
+| `^` | Go back to previous match |
+| `E` | Edit replacement text |
+| `?` | Show help during query replace |
+
+You can also run:
+
+```bash
+M-x replace string
+```
+
+For example:
+
+Replace `Old text` with `New text`
+
+
+
 
 
