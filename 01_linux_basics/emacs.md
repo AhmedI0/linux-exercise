@@ -507,6 +507,36 @@ For example:
 Replace `Old text` with `New text`
 
 
+## Opening multiple files and buffers
 
+open another file:
+```bash
+C-x C-r
+```
+Then type the file path and press ENTER.
 
+Switch buffer
+```bash
+C-x b
+```
+
+List biffers:
+```bash
+C-x
+```
+```bash
+C-b
+```
+
+Save current buffer:
+```bash
+C-x
+```
+```bash
+C-s
+```
+Save all modified buffers:
+```bash
+C-x s
+```
 
