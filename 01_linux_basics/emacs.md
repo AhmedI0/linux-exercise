@@ -540,3 +540,33 @@ Save all modified buffers:
 C-x s
 ```
 
+## Slit windows in emacs
+
+Horizontal split:
+```bash
+C-x 2
+```
+
+vertical split:
+```bash
+C-x 3
+```
+
+Move to another window:
+```bash
+C-x o
+```
+
+Close current split:
+```bash
+C-x 0
+```
+
+Close all other splits and keep current one:
+```bash
+C-x 1
+```
+
+This is useful for comparing files.
+
+
